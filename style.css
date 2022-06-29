@@ -1,0 +1,157 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", Arial, sans-serif;
+    font-size: 15px;
+    /* line-height: 1.5; */
+}
+.topmain{
+    width: 100%;
+    max-width: 1500px;
+    align-items: center;
+    margin: auto;
+}
+.hd{
+    padding: 24px 16px;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    text-align: center;
+}
+.left{
+    font-size: 24px;
+    /* float: left; */
+    text-decoration: none ;
+    color: black;
+    padding: 8px 16px;
+}
+.left:hover{
+    color: black;
+    background-color: #ddd;
+}
+
+
+.right{
+    font-size: 24px;
+    /* float: right; */
+    text-decoration: none ;
+    color: black;
+    padding: 8px 16px;   
+}
+.right:hover{
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+}
+.wall{
+    
+    display: flex;
+    width: 100%;
+    /* float: left; */
+    align-items: center;
+    
+    
+    
+}
+.sam1,.sam2{ 
+    width: 50%;
+    
+}
+.grandparents{
+    margin: 0%;
+    color: black;
+    background-color: #f1f1f1!important;
+        padding: 50px;
+
+}
+.d2{
+    text-align: center;
+
+}
+.abt{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 30px;
+    margin: 10px 0%;
+    padding: 24px;
+    
+    font-weight: 400;
+
+}
+.form{
+    margin: auto;
+    width: 60%;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.s1{
+    color: red;
+    font-size: 18px!important;
+}
+.x1{
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    width: 100%;
+    font: inherit;
+    margin: 0%;
+    margin-bottom: 10px;
+    box-sizing: inherit;
+
+}
+.btn{
+    display: block;
+    width: 100%;
+    background-color: #616161;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    font-size: 16px!important;
+}
+.btn:hover{
+    color: black;
+    background-color: #ddd;
+    
+   
+}
+.pl {
+    line-height: 80px;
+    text-align: "center";
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+  }
+  .text-green:hover{
+      color: green;      
+      
+  }
+  .text-green{
+      color: black;
+  }
+
+  @media only screen and ( max-width:600px){
+      .wall{
+          flex-direction: column;
+          
+      }
+      .sam1{
+
+        width: 100%;
+      }
+      .topmain{
+          width: 100%;
+          max-width: auto;
+          
+
+      }
+      .img1{
+          width: 100%;
+      }
+      .form{
+          width: 104%;
+          margin-top: 30%;
+      }
+  }
